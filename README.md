@@ -10,3 +10,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 1. Agregar carpeta/archivos .jison
 2. Agregar archivos .jison al arreglo de scripts en angular.json (Línea 34)
+3. Declarar la variable grammar en el componente a utilizar ```declare  var grammar:  any;```
+4. Hacer uso del método parse ``` grammar.parse("TEXTO");```

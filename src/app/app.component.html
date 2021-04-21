@@ -56,12 +56,7 @@
   </div>
 <!-- Terminal -->
   <div class="terminal">
-      <textarea rows="10">Evaluar[1+1];
-Evaluar[1+1*2];
-Evaluar[-(1+1*6/3-5+7)];
-Evaluar[-(1+1*6/3-5+1*-2)];
-Evaluar[-(1.6+1.45)];
-</textarea>
+      <textarea rows="10"  [(formControl)]="texto"></textarea>
  
   <svg id="clouds" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677" viewBox="0 0 2611.084 485.677">
     <title>Gray Clouds Background</title>
@@ -72,14 +67,14 @@ Evaluar[-(1.6+1.45)];
 
 
 <div class="card-container">
-  <div class="card card-small">
+  <div class="card card-small" (click)="ejecutar()">
 
     <span>Ejecutar</span>
   </div>
 
 </div>
 
-<!-- Terminal -->
+<!-- Terminal 
 <div class="terminal">
   <textarea rows="10"></textarea>
 
@@ -89,7 +84,7 @@ Evaluar[-(1.6+1.45)];
 </svg>
 
 </div>
-
+-->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
