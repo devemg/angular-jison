@@ -8,7 +8,7 @@
 4. Hacer uso del método parse ``` grammar.parse("TEXTO");```
 
 Nota: El objeto que se ha de importar en el punto 3 y utilizar en el punto 4 toma el nombre del archivo .jison que se compiló. 
-En el presente ejemplo se compiló un archivo llamado grammar.jison. 
+En el presente ejemplo se utilizó un archivo llamado grammar.jison. 
 
 # Project 
 
